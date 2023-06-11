@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Isaac's Tech Corner, a blog dedicated to exploring the
   intricacies of motor control and the fascinating world of programming. Here,
   you'll find in-depth articles, insightful tutorials, and handy tips and tricks.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Isaac-Journey-in-Tech-blog" # the subpath of your site, e.g. /blog
+url: "https://chen-isaac.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: isaac-xinxi-chen
 github_username:  Chen-Isaac
 
