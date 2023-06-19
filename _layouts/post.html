@@ -12,7 +12,7 @@ layout: default
             Categories:
             {% assign sortedCategories = page.categories | sort %}
             {% for category in sortedCategories %}
-                <a href="/category/{{ category }}">{{ category }}</a>
+                <a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a>
             {% endfor %}
         </span>
         {%- endif -%}
@@ -22,7 +22,7 @@ layout: default
             Tags:
             {% assign sortedTags = page.tags | sort %}
             {% for tag in sortedTags %}
-                <a href="/tag/{{ tag }}">{{ tag }}</a>
+                <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
             {% endfor %}
         </span>
         {%- endif -%}
